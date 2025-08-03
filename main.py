@@ -1,12 +1,13 @@
+import os
 from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import InviteToChannelRequest
 from telethon.errors import PeerFloodError, UserPrivacyRestrictedError
 import time
 import csv
 
-api_id = int(os.getenv("21663358"))
-api_hash = os.getenv("d52861fe8ae5cea6aeb0cf1eb3c95cce")
-phone = os.getenv("+905524114377")
+api_id = 21663358
+api_hash = 'd52861fe8ae5cea6aeb0cf1eb3c95cce'
+phone = '+905524114377'
 
 client = TelegramClient('session', api_id, api_hash)
 client.connect()

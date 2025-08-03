@@ -5,7 +5,7 @@ Telegram grubundan üye çekip kendi grubuna davet eder.
 ## Replit'te Çalıştırmak İçin:
 
 1. Aşağıdaki butona tıkla:
-[![Run on Replit](https://replit.com/badge/github/Frozzylxst/telegram-bot)](https://replit.com/badge/github/Frozzylxst/telegram-bot)
+[![Run on Replit](https://replit.com/badge/github/Frozzylxst/telegram-bot)]
 
 2. Secrets kısmına şunları gir:
 - API_ID → 21663358
